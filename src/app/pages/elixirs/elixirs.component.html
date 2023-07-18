@@ -1,8 +1,8 @@
 <main class="elixirs-mainContainer">
-  <div>
+  <div class="title">
     <p>List of elixirs</p>
   </div>
-  <div>
-    <app-elixir-card></app-elixir-card>
+  <div class="elixirList" >
+    <app-elixir-card class="elixir" *ngFor="let elixir of elixirsList" [elixir]="elixir"></app-elixir-card>
   </div>
 </main>

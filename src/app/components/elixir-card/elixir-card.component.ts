@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Elixirs } from 'src/app/interfaces/elixirs';
 
 @Component({
   selector: 'app-elixir-card',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./elixir-card.component.css']
 })
 export class ElixirCardComponent {
-
+  @Input() elixir!: Elixirs;
 }

@@ -1,5 +1,28 @@
 .elixirs-mainContainer{
+  overflow: auto;
   color: white;
   height: 87vh;
   width: 100vw;
+}
+
+.title{
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+}
+
+.elixirList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.elixir{
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  border: .5px solid #6b2e69;
+  border-radius: 12px;
+  margin: 16px;
 }
