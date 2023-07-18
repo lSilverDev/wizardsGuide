@@ -10,3 +10,9 @@
   justify-content: space-evenly;
   color: white;
 }
+
+.nav-item{
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 18px;
+}
