@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ElixirsComponent } from './pages/elixirs/elixirs.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { HousesComponent } from './pages/houses/houses.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'elixirs',
     component: ElixirsComponent
+  },
+  {
+    path: 'houses',
+    component: HousesComponent
   },
   {
     path: '**',

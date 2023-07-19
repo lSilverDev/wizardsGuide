@@ -5,8 +5,24 @@
   padding: 16px;
 }
 
-.details{
+.info-container{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.line{
+  border-color: #6b2e69;
+}
+
+.sideEffects{
+  text-align: center;
+  margin: 10px;
 }

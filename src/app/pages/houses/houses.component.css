@@ -1,0 +1,18 @@
+.houses-mainContainer{
+  overflow: auto;
+  color: white;
+  height: 87vh;
+  width: 100vw;
+}
+
+.title{
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+}
+
+.houseList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

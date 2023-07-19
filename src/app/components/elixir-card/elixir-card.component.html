@@ -4,11 +4,27 @@
   </div>
   <div class="info-container">
     <div class="details">
-      <p>Elixir Name:</p> <span>{{ elixir.name }}</span>
-      <p>Effect: {{ elixir.effect }}</p>
-      <p>Effect duration: {{ elixir.time }}</p>
-      <p>Difficulty: {{ elixir.difficulty }}</p>
+      <div>
+        <p>Elixir Name:</p>
+        <hr class="line">
+        <p>Effect:</p>
+        <hr class="line">
+        <p>Effect duration:</p>
+        <hr class="line">
+        <p>Difficulty:</p>
+        <hr class="line">
+      </div>
+      <div>
+        <p> {{ elixir.name ? elixir.name : 'Unknown' }}</p>
+        <hr class="line">
+        <p> {{ elixir.effect ? elixir.effect : 'Unknown' }}</p>
+        <hr class="line">
+        <p> {{ elixir.time ? elixir.time : 'Unknown' }}</p>
+        <hr class="line">
+        <p> {{ elixir.difficulty ? elixir.difficulty : 'Unknown' }}</p>
+        <hr class="line">
+      </div>
     </div>
-    <p>Side effect: {{ elixir.sideEffects }}</p>
+    <p class="sideEffects">Side effect: {{ elixir.sideEffects ? elixir.sideEffects : 'Unknown' }}</p>
   </div>
 </div>
